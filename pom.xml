@@ -27,6 +27,9 @@
         <module>adapter</module>
         <module>bridge</module>
         <module>builder</module>
+        <module>chain</module>
+        <module>command</module>
+        <module>composite</module>
     </modules>
 
     <dependencyManagement>

@@ -7,11 +7,25 @@ import java.util.List;
  * @author GEEX177
  * @date 2019/12/5
  */
-public abstract class AbstractCharactor {
+public abstract class AbstractCharacter {
 
-    private List<AbstractCharactor> children = new ArrayList<>();
+    private List<AbstractCharacter> children = new ArrayList<>();
 
-    public void add(AbstractCharactor charactor) {
-        
+    public void add(AbstractCharacter character) {
+        children.add(character);
+    }
+
+    public void printBefore() {
+    }
+
+    public void printAfter() {
+    }
+
+    public void print() {
+        printBefore();
+        for (AbstractCharacter character : children) {
+            character.print();
+        }
+        printAfter();
     }
 }

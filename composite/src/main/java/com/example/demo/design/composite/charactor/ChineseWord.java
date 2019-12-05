@@ -1,7 +1,21 @@
 package com.example.demo.design.composite.charactor;
 
+import java.util.List;
+
 /**
- * Created by GEEX177 on 2019/12/5.
+ * @author GEEX177
+ * @date 2019/12/5
  */
-public class ChineseWords {
+public class ChineseWord extends AbstractCharacter {
+
+    public ChineseWord(List<Character> characters) {
+        for (Character c : characters) {
+            add(c);
+        }
+    }
+
+    @Override
+    public void printBefore() {
+        System.out.print("");
+    }
 }

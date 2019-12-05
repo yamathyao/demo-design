@@ -1,7 +1,22 @@
 package com.example.demo.design.chain.abstractcaptain;
 
 /**
- * Created by GEEX177 on 2019/12/5.
+ * @author GEEX177
+ * @date 2019/12/5
  */
 public class Marshal {
+
+    private AbstractChain chain;
+
+    public Marshal() {
+        createCommand();
+    }
+
+    private void createCommand() {
+        chain = new General(new Colonel(new Army(null)));
+    }
+
+    public void setCommand(Command command) {
+        chain.setCommand(command);
+    }
 }

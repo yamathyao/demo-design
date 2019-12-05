@@ -1,7 +1,21 @@
 package com.example.demo.design.composite.charactor;
 
+import java.util.List;
+
 /**
- * Created by GEEX177 on 2019/12/5.
+ * @author GEEX177
+ * @date 2019/12/5
  */
-public class EnglishSentence {
+public class EnglishSentence extends AbstractCharacter {
+
+    public EnglishSentence(List<EnglishWord> words) {
+        for (EnglishWord word : words) {
+            add(word);
+        }
+    }
+
+    @Override
+    public void printAfter() {
+        System.out.print(".");
+    }
 }

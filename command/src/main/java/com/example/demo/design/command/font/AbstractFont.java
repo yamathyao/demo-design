@@ -1,4 +1,4 @@
-package com.example.demo.design.command;
+package com.example.demo.design.command.font;
 
 import lombok.Getter;
 import lombok.Setter;

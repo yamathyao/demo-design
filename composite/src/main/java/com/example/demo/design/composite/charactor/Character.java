@@ -1,7 +1,19 @@
 package com.example.demo.design.composite.charactor;
 
 /**
- * Created by GEEX177 on 2019/12/5.
+ * @author GEEX177
+ * @date 2019/12/5
  */
-public class Character {
+public class Character extends AbstractCharacter {
+
+    private char c;
+
+    public Character(char c) {
+        this.c = c;
+    }
+
+    @Override
+    public void print() {
+        System.out.print(String.valueOf(c));
+    }
 }

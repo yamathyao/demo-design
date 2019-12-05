@@ -6,17 +6,22 @@ import lombok.Getter;
  * @author GEEX177
  * @date 2019/12/5
  */
-public class Army {
+public class Command {
 
     @Getter
-    private final String command;
+    private final String message;
 
     @Getter
     private final ArmyLevel level;
 
-    protected Army(ArmyLevel level, String command) {
+    protected Command(ArmyLevel level, String message) {
         this.level = level;
-        this.command = command;
+        this.message = message;
+    }
+
+    @Override
+    public String toString() {
+        return getMessage();
     }
 
     public enum ArmyLevel {
@@ -25,6 +30,8 @@ public class Army {
         // 将军
         GENERAL,
         // 上校
-        COLONEL;
+        COLONEL,
+        // 军队
+        ARMY
     }
 }

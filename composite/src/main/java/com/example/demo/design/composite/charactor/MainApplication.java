@@ -1,7 +1,16 @@
 package com.example.demo.design.composite.charactor;
 
 /**
- * Created by GEEX177 on 2019/12/5.
+ * @author GEEX177
+ * @date 2019/12/5
  */
 public class MainApplication {
+
+    public static void main(String[] args) {
+        AbstractCharacter chineseComposite = new Write().sentenceByChinese();
+        chineseComposite.print();
+
+        AbstractCharacter englishComposite = new Write().sentenceByEnglish();
+        englishComposite.print();
+    }
 }

@@ -1,7 +1,21 @@
 package com.example.demo.design.chain.abstractlog;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
- * Created by GEEX177 on 2019/12/5.
+ * @author GEEX177
+ * @date 2019/12/5
  */
-public class FileLogger {
+@Slf4j
+public class FileLogger extends AbstractLogger {
+
+    public FileLogger() {
+        this.level = DEBUG;
+        setNextLogger(new ConsoleLogger());
+    }
+
+    @Override
+    protected void write(String message) {
+        log.info("File log: " + message);
+    }
 }

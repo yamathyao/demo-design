@@ -7,11 +7,11 @@ import lombok.extern.slf4j.Slf4j;
  * @date 2019/12/5
  */
 @Slf4j
-public abstract class AbstractArmy {
+public abstract class AbstractChain {
 
-    private AbstractArmy next;
+    private AbstractChain next;
 
-    public AbstractArmy(AbstractArmy next) {
+    public AbstractChain(AbstractChain next) {
         this.next = next;
     }
 
