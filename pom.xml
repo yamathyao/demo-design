@@ -23,13 +23,28 @@
     </properties>
 
     <modules>
+         <!--抽象工厂-->
         <module>abstract-factory</module>
+        <!--适配器-->
         <module>adapter</module>
+        <!--桥接-->
         <module>bridge</module>
+        <!--建造者-->
         <module>builder</module>
+        <!--责任链-->
         <module>chain</module>
+        <!--命令-->
         <module>command</module>
+        <!--组合-->
         <module>composite</module>
+        <!--装饰-->
+        <module>decorator</module>
+        <!--外观-->
+        <module>facade</module>
+        <!--工厂-->
+        <module>factory</module>
+        <!--享元-->
+        <module>flyweight</module>
     </modules>
 
     <dependencyManagement>
