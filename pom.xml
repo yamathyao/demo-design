@@ -51,6 +51,10 @@
         <module>iterator</module>
         <!--中介者-->
         <module>mediator</module>
+        <!--备忘录-->
+        <module>memento</module>
+        <!--观察者-->
+        <module>observer</module>
     </modules>
 
     <dependencyManagement>
