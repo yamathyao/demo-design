@@ -55,6 +55,14 @@
         <module>memento</module>
         <!--观察者-->
         <module>observer</module>
+        <!--原型-->
+        <module>prototype</module>
+        <!--代理-->
+        <module>proxy</module>
+        <!--单例-->
+        <module>singleton</module>
+        <!--状态-->
+        <module>state</module>
     </modules>
 
     <dependencyManagement>
