@@ -63,6 +63,12 @@
         <module>singleton</module>
         <!--状态-->
         <module>state</module>
+        <!--策略-->
+        <module>strategy</module>
+        <!--模板-->
+        <module>template</module>
+        <!--访问者-->
+        <module>visitor</module>
     </modules>
 
     <dependencyManagement>
