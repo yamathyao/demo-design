@@ -1,6 +1,7 @@
 package com.example.demo.design.factory.cook.impl;
 
 import com.example.demo.design.factory.cook.Cook;
+import com.example.demo.design.factory.cook.Cooker;
 import com.example.demo.design.factory.cook.Food;
 import com.example.demo.design.factory.cook.FoodType;
 
@@ -11,7 +12,7 @@ import com.example.demo.design.factory.cook.FoodType;
 
 public class ChineseCook implements Cook {
     @Override
-    public Food cook(FoodType foodType) {
-        return new ChineseFood(foodType);
+    public Food cook(Cooker cooker, FoodType foodType) {
+        return new ChineseFood(cooker, foodType);
     }
 }

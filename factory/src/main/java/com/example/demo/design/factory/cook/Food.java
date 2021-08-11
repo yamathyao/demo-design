@@ -6,6 +6,4 @@ package com.example.demo.design.factory.cook;
  */
 
 public interface Food {
-
-    FoodType getFood(FoodType foodType);
 }

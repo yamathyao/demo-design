@@ -7,9 +7,16 @@ package com.example.demo.design.factory.cook;
 
 public enum Cooker {
 
-    CHINESE_COOKER("chinese cooker"), WESTERN_COOKER("western cooker");
+    /**
+     * 中国厨师
+     */
+    CHINESE_COOKER("chinese cooker"),
+    /**
+     * 西餐厨师
+     */
+    WESTERN_COOKER("western cooker");
 
-    private String name;
+    private final String name;
 
     Cooker(String name) {
         this.name = name;

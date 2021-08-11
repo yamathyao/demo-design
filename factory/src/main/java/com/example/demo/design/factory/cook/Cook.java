@@ -7,5 +7,12 @@ package com.example.demo.design.factory.cook;
 
 public interface Cook {
 
-    Food cook(FoodType foodType);
+    /**
+     * cook
+     *
+     * @param foodType
+     * @param cooker
+     * @return
+     */
+    Food cook(Cooker cooker, FoodType foodType);
 }

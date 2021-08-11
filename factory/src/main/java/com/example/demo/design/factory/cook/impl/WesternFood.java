@@ -1,5 +1,6 @@
 package com.example.demo.design.factory.cook.impl;
 
+import com.example.demo.design.factory.cook.Cooker;
 import com.example.demo.design.factory.cook.Food;
 import com.example.demo.design.factory.cook.FoodType;
 import lombok.extern.slf4j.Slf4j;
@@ -12,14 +13,11 @@ import lombok.extern.slf4j.Slf4j;
 public class WesternFood implements Food {
 
     private FoodType foodType;
+    private Cooker cooker;
 
-    public WesternFood(FoodType foodType) {
-        log.info(foodType.getName() + " Western food.");
+    public WesternFood(Cooker cooker, FoodType foodType) {
+        log.info(cooker.getName() + " cooked " + foodType.getName() + " Western food.");
         this.foodType = foodType;
-    }
-
-    @Override
-    public FoodType getFood(FoodType foodType) {
-        return foodType;
+        this.cooker = cooker;
     }
 }

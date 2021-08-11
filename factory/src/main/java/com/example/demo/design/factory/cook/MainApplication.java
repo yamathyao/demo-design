@@ -12,10 +12,10 @@ public class MainApplication {
 
     public static void main(String[] args) {
         Cook cook = new ChineseCook();
-        cook.cook(FoodType.COLD);
+        cook.cook(Cooker.CHINESE_COOKER, FoodType.COLD);
 
         cook = new WesternCook();
-        cook.cook(FoodType.COLD);
-        cook.cook(FoodType.HOT);
+        cook.cook(Cooker.CHINESE_COOKER, FoodType.COLD);
+        cook.cook(Cooker.WESTERN_COOKER, FoodType.HOT);
     }
 }

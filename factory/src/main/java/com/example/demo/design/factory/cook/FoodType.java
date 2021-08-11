@@ -1,15 +1,24 @@
 package com.example.demo.design.factory.cook;
 
 /**
+ * 食物类型枚举
+ *
  * @author yao
  * @date 2019/12/6
  */
 
 public enum FoodType {
 
-    HOT("hot"), COLD("cold");
+    /**
+     * 热菜
+     */
+    HOT("hot"),
+    /**
+     * 冷菜
+     */
+    COLD("cold");
 
-    private String name;
+    private final String name;
 
     FoodType(String name) {
         this.name = name;
@@ -18,4 +27,4 @@ public enum FoodType {
     public String getName() {
         return name;
     }
-    }
+}
