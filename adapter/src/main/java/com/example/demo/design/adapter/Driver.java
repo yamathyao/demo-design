@@ -5,7 +5,7 @@ import com.example.demo.design.adapter.inter.Car;
 /**
  * i'm a driver, can drive a car
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public class Driver implements Car {

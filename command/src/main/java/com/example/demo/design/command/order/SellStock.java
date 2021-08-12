@@ -1,7 +1,7 @@
 package com.example.demo.design.command.order;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/5
  */
 public class SellStock implements Order {

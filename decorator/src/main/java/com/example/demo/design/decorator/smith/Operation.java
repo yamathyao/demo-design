@@ -1,7 +1,7 @@
 package com.example.demo.design.decorator.smith;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/6
  */
 public interface Operation {

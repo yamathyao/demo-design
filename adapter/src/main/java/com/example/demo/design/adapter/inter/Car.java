@@ -3,7 +3,7 @@ package com.example.demo.design.adapter.inter;
 /**
  * it's a car
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public interface Car {

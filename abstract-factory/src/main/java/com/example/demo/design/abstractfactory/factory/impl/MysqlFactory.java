@@ -7,7 +7,7 @@ import com.example.demo.design.abstractfactory.inter.impl.MysqlGet;
 import com.example.demo.design.abstractfactory.inter.impl.MysqlInsert;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public class MysqlFactory implements DbFactory {

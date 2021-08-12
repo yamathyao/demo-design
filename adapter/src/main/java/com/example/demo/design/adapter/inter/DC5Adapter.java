@@ -3,7 +3,7 @@ package com.example.demo.design.adapter.inter;
 /**
  * 5V adapter
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public interface DC5Adapter {

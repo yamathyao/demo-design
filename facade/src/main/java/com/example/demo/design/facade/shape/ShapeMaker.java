@@ -5,7 +5,7 @@ import com.example.demo.design.facade.shape.impl.Rectangle;
 import com.example.demo.design.facade.shape.impl.Square;
 
 /**
- * Created by GEEX177 on 2019/12/6.
+ * Created by yao on 2019/12/6.
  */
 public class ShapeMaker {
 

@@ -3,7 +3,7 @@ package com.example.demo.design.chain.abstractlog;
 import lombok.Setter;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/5
  */
 public abstract class AbstractLogger {

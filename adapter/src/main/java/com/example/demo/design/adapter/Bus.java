@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * it's a bus, an adaptee
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 @Slf4j

@@ -11,7 +11,7 @@ import com.example.demo.design.abstractfactory.inter.impl.YoungSailor;
 /**
  * young captain factory
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public class YoungTeamFactory implements TeamFactory {

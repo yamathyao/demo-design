@@ -5,7 +5,7 @@ import com.example.demo.design.abstractfactory.inter.Ship;
 /**
  * new ship
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public class YoungShip implements Ship {

@@ -5,7 +5,7 @@ import com.example.demo.design.bridge.inter.impl.WeakEnemy;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/4
  */
 @Slf4j

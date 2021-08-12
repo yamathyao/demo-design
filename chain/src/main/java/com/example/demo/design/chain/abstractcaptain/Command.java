@@ -3,7 +3,7 @@ package com.example.demo.design.chain.abstractcaptain;
 import lombok.Getter;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/5
  */
 public class Command {

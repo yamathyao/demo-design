@@ -5,7 +5,7 @@ import com.example.demo.design.decorator.smith.impl.Smith;
 
 /**
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/6
  */
 public class MainApplication {

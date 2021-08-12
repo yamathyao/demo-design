@@ -4,7 +4,7 @@ import com.example.demo.design.decorator.shape.impl.Circle;
 import com.example.demo.design.decorator.shape.impl.Rectangle;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/6
  */
 public class MainApplication {

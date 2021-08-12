@@ -7,7 +7,7 @@ import com.example.demo.design.abstractfactory.inter.impl.OracleGet;
 import com.example.demo.design.abstractfactory.inter.impl.OracleInsert;
 
 /**
- * @author GEEX177
+ * @author yao
  * @date 2019/12/3
  */
 public class OracleFactory implements DbFactory {

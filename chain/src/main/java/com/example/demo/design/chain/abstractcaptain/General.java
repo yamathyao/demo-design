@@ -2,7 +2,7 @@ package com.example.demo.design.chain.abstractcaptain;
 
 /**
  *
- * @author GEEX177
+ * @author yao
  * @date 2019/12/5
  */
 public class General extends AbstractChain {
