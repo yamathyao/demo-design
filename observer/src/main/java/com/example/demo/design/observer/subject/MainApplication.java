@@ -13,6 +13,7 @@ public class MainApplication {
 
         Subject subject  = new Subject();
 
+        // 观察者
         new BinaryObserver(subject);
         new OctalObserver(subject);
         new HexObserver(subject);
