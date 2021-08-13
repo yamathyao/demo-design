@@ -3,6 +3,8 @@ package com.example.demo.design.proxy.image;
 import com.example.demo.design.proxy.image.impl.ProxyImage;
 
 /**
+ * 代理模式
+ *
  * @author yao
  * @date 2019/12/8
  */
