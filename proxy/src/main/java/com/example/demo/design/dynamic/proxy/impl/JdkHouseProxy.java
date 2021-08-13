@@ -7,11 +7,11 @@ import java.lang.reflect.Method;
  * @author yao
  * @date 2021/8/13
  */
-public class HouseProxy implements InvocationHandler {
+public class JdkHouseProxy implements InvocationHandler {
 
     private final Object object;
 
-    public HouseProxy(Object object) {
+    public JdkHouseProxy(Object object) {
         this.object = object;
     }
 
